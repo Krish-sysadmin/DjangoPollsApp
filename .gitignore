@@ -19,7 +19,6 @@ media
 
 # KDE directory preferences
 .directory
-
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
@@ -28,6 +27,7 @@ media
 
 ### macOS ###
 *.DS_Store
+**/.DS_Store
 .AppleDouble
 .LSOverride
 
