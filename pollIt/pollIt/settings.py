@@ -20,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '%e6sp!+bi9@kltptxi%%7za!kd!z+8@x^0@t6jp!srdl+g0g1y'
+SECRET_KEY = 'xv=v0-@##)opn%d9!rn=pwyx9d@=aq^5_1nd)+$@nodz6)mp)h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://pollingkrish.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
@@ -119,4 +119,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
